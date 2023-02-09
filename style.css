@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%);
+  background-color: #8257e5;
+  font-family: "Rubik";
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#center {
+  width: 327px;
+  height: 656px;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+#footer {
+  font-size: 13px;
+  opacity: 0.64;
+  color: white;
+  text-align: center;
+  padding-inline: 20px;
+  letter-spacing: -0.02em;
+}
+
+#ticket {
+  filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ticket_default {
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-inline: 34px;
+  background-color: white;
+  border-radius: 24px;
+}
+
+#bottom_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_text {
+  font-size: 13px;
+  opacity: 0.64;
+}
+
+.content_text {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+
+#boarding_hour {
+  margin-top: 3px;
+  margin-bottom: 15px;
+  width: 51px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-inline: 6px;
+  background: #633bbc;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+}
